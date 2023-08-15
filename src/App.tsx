@@ -22,7 +22,7 @@ function App() {
     fontSize: "21px",
   }
 
-  const outputStyle: CSSPropertie = {
+  const outputStyle: CSSProperties = {
     width: "500px",
     height: "500px",
     backgroundColor: "#E6FFE6",
