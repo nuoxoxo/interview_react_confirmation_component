@@ -31,7 +31,6 @@ dist-ssr
 
 *sandbox/*.js
 !*sandbox/runner*.js
-package-lock.json
 */public/*
 !*/public/index.html
 *ts/src/*.js
