@@ -19,12 +19,12 @@ export default defineConfig(({ command }) => {
     base: '/',
     // baseurl: ''
     build: {
-      assetsInclude: ['src/styles/styles.css'],
+      assetsInclude: ['src/App.scss'],
     }
   }
 
   if (command !== 'serve') {
-    config.base = '/coughing/'
+    config.base = '/mdp/'
   }
 
   return config
