@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, CSSProperties } from "react"
 import { GetRandomColor } from "./Helpers"
 // import Badge from "react-bootstrap/Badge"
 import { marked } from "marked"
@@ -6,10 +6,12 @@ import { marked } from "marked"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
-  const [textColor, setTextColor] = useState(GetRandomColor())
+  // const [textColor, setTextColor] = useState(GetRandomColor())
   const [markdown, setMarkdown] = useState("")
 
-  let inputStyle = {
+  const textColor: string = GetRandomColor()
+
+  const inputStyle: CSSProperties = {
     width: "500px",
     height: "500px",
     backgroundColor: "#FEFBEA",
@@ -20,7 +22,7 @@ function App() {
     fontSize: "21px",
   }
 
-  var outputStyle = {
+  const outputStyle: CSSPropertie = {
     width: "500px",
     height: "500px",
     backgroundColor: "#E6FFE6",
