@@ -17,7 +17,6 @@ export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
     base: '/',
-    // baseurl: ''
     build: {
       assetsInclude: ['src/App.scss'],
     }
@@ -29,4 +28,3 @@ export default defineConfig(({ command }) => {
 
   return config
 })
-
