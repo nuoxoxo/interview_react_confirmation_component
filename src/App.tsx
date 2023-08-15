@@ -10,7 +10,7 @@ function App() {
   const [markdown, setMarkdown] = useState('')
 
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/coughing/"}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/mdp/"}>
       <Routes>
         <Route
           path="/"
