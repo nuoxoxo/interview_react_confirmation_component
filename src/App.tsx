@@ -1,4 +1,4 @@
-import { useState, CSSProperties } from "react";
+import { useState, /*CSSProperties*/ } from "react";
 import { GetRandomColor } from "./Helpers";
 // import Badge from "react-bootstrap/Badge"
 import { marked } from "marked";
