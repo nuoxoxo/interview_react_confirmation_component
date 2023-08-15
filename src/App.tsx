@@ -29,7 +29,7 @@ function App() {
     padding: "10px",
     fontFamily: "Georgia",
     fontSize: "21px",
-    textAligh: "left",
+    textAlign: "left",
   }
 
   return (
