@@ -43,7 +43,7 @@ function App() {
             <>
               <div className="container">
                 <span style={{ color: textColor }}>Hello</span>
-                &nbsp<span style={{ color: textColor }}>World</span>
+                &nbsp;<span style={{ color: textColor }}>World</span>
               </div>
 
               <div className="container">
