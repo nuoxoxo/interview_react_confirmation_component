@@ -1,20 +1,16 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: deploy
+name: ⭐ corma-on-solers-react-case ⭐
 
 on:
   # Runs on pushes targeting the default branch
   push:
     branches: ['main']
-  pull_request:
-    branches: [ "main" ]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  schedule:
-    - cron: "25 6 * * *"
 
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -49,6 +45,6 @@ jobs:
         with:
           # Upload dist repository
           path: './dist'
-      - name: deploy
+      - name: ⭐ corma-on-solers-react-case ⭐
         id: deployment
         uses: actions/deploy-pages@v1
