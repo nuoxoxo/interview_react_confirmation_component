@@ -22,7 +22,7 @@ const Confirmation = ({ type, message, children, decline, accept }) => {
 
     // notistack
     enqueueSnackbar(
-      '𓃓', // 1st arg: Message
+      'Accepted', // 1st arg: Message
       { // 2nd arg: specification
         variant: "success",
         autoHideDuration: 3000,
@@ -42,7 +42,7 @@ const Confirmation = ({ type, message, children, decline, accept }) => {
 
     // notistack
     enqueueSnackbar(
-      '𓃓', // 1st arg: Message             
+      'Declined', // 1st arg: Message             
       { // 2nd arg: specification
         variant: "warning",
         autoHideDuration: 3000,
