@@ -1,4 +1,4 @@
-name: ⭐ corma-on-solers-react-case ⭐
+name: ⭐ react-case ⭐
 
 on:
   # Runs on pushes targeting the default branch
@@ -45,6 +45,6 @@ jobs:
         with:
           # Upload dist repository
           path: './dist'
-      - name: ⭐ corma-on-solers-react-case ⭐
+      - name: ⭐ eact-case ⭐
         id: deployment
         uses: actions/deploy-pages@v1
