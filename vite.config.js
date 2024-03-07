@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
   }
 
   if (command !== 'serve') {
-    config.base = '/mdp/'
+    config.base = '/interview_react_confirmation_component/'
   }
 
   return config
