@@ -31,11 +31,8 @@ dist-ssr
 
 *sandbox/*.js
 !*sandbox/runner*.js
-*/public/*
-!*/public/index.html
 *ts/src/*.js
 *.eslintrc.cjs
-*.svg
 
 .vscode/
 
