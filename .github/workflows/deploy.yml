@@ -1,4 +1,4 @@
-name: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+name: ⭐
 
 on:
   # Runs on pushes targeting the default branch
@@ -45,6 +45,6 @@ jobs:
         with:
           # Upload dist repository
           path: './dist'
-      - name: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+      - name: ⭐
         id: deployment
         uses: actions/deploy-pages@v1
